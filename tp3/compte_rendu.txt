@@ -1,0 +1,15 @@
+Exercice 1: 
+
+2. On peut accéder aux champs de l'objet Book à l'intérieur du record donc ça fonctionne.
+
+3. Ici ce n'est pas le cas, on doit utiliser des accesseurs.
+
+4. Il faut ajouter une vérification dans le record.
+
+7. Le compilateur regarde les paramètres des constructeurs pour choisir lequel utiliser selon les champs de l'objet.
+
+8. Le problème est que la variable est final donc on ne peut pas la modifier de cette manière. Les champs d'un record sont immutables, il faut donc créer un nouvel objet.
+
+Exercice 2: 
+
+1. Le code affiche true puis false car lors de l'initialisation de b2, l'objet pointe sur la même adresse que b1, donc ce sont les mêmes objets. Mais lors de l'initialisation de b3, on crée un nouvel objet.
