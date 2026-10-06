@@ -1,7 +1,0 @@
-Exercice 1:
-
-4) Le compilateur regarde le nom du fichier pour savoir quel est le nom de sa classe.
-
-Exercice 2: 
-
-2) Il ne se passe rien.
