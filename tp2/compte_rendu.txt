@@ -1,0 +1,25 @@
+Exercice 1:
+
+1. La variable s est une chaîne de caractères. Le compilateur regarde simplement la valeur de la variable pour évaluer son type.
+
+2. Le code affiche true et false.
+La variable s2 pointe sur la même adresse que la variable s1, tandis que la variable s3 est une nouvelle chaîne de caractères de même valeur que s1. == vérifie si deux objets sont les mêmes, c'est-à-dire s'ils sont à la même adresse.
+
+3. On doit utiliser la méthode equals().
+
+4. Le code affiche true car ce sont des chaînes littérales qui sont stockées dans un cache à l'exécution et qui ont la même valeur.
+
+5. C'est important car on est sûr qu'une String passée en arguments ne sera pas modifié.
+
+6. Lorsqu'on utilise une méthode, si on ne stocke pas la valeur renvoyée par celle-ci, elle disparait. Il suffit d'écrire s8 = s8.toUpperCase();
+
+Exercice 2:
+
+2. L'objet java.lang.StringBuilder sert à faire une String mutable.
+
+3. L'avantage est qu'on ne réalloue pas une nouvelle chaîne à chaque fois et on modifie directement la chaîne de base.
+
+4. On peut utiliser ' ' car le compilateur regarde la valeur des variables autour et en conclut que c'est une String. 
+
+Exercice 3:
+
